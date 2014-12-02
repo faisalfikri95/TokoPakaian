@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugas.tokopakaian.AvibActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/glamor1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                \n KETERANGAN :\n
+                \n - Glamorous Highwaist Mini Dress
+
+\n - Dress biru acid-wash tanpa lengan karet pinggang dan ritsleting vintage di bagian belakang 
+\n - Dress dengan potongan manis
+\n - Model setinggi 176cm
+\n - Terinspirasi dari gaya vintage
+\n - high-fashion, dan kultur nightlife
+
+\n - RP 549.000\n\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/house" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                \n KETERANGAN : \n
+                \n - Supernova House Nadine Gamis - Abu
+ 
+\n - Busana muslimah
+\n - Bahan Adem, dan Halus
+\n - Fit hingga ukuran XL
+\n - Best Seller
+\n - Pertama dan Satu-satunya
+
+\n - RP 245.000\n\n" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/kampung2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                \n KETERANGAN : \n
+                \n - Kampung Souvenir Gamis Peplum Hitam
+
+\n - Dingin
+\n - Lembut
+\n - Tidak Luntur
+\n - Sangat Cocok bagi ibu menyusui
+\n - free size
+\n - RP 179.000\n\n" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

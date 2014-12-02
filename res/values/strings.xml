@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TokoPakaian</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_hardware_avtivity">Luna Maya Hardware</string>
+    <string name="title_activity_amadeus">AMADEUS</string>
+    <string name="title_activity_avib">AVIB Collection</string>
+
+</resources>

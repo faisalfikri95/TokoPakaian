@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tugas.tokopakaian.AmadeusActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/adorecelana1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                \n KETERANGAN : \n
+                \n Adore Celana Panjang Chino 
+                \n - Coklat Tua	
+
+\n - Bahan Chino Fabric
+\n - Jahitan Rapi
+\n - Nyaman Dikenakan
+\n - Design Trendy
+\n - RP 149.900\n\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/buka" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                \n KETERANGAN : \n
+                \n - Open V-Neck Shift Dress
+\n - Rayon kombinasi
+\n - Hitam
+\n - Kerah V
+\n - Lengan 3/4
+\n - Resleting belakang
+\n - Termasuk belt
+\n - Unlined
+\n - Stretchable
+\n - Slim fit
+\n - RP 299.000\n\n" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/dress" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                \n KETERANGAN : \n
+                \n - A-line dress warna hijau
+\n -Ritsleting tersembunyi.
+\n -Ukuran normal
+\n -Model setinggi 176cm/5'9 dan menggunakan ukuran 8 sistem UK.
+\n -Terinspirasi dari gaya vintage
+\n -high-fashion
+\n -kultur nightlife
+\n -brand Glamorous dari Manchester 
+\n -RP 519.000\n\n" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
